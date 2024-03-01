@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz App</title>
+    <style>
+
+    </style>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  <body>
+    <div class="popup">
+      <div class="congrats">
+        <h1>رائع!</h1>
+      </div>
+      
+      
+      <br>
+      <span class="status"> لقد انتقلت إلى المرحلة الثانية</span>
+      <span class="game-over" style="display: none;"> Game Over</span>
+      <img class="level" src="level/level-2.png" alt="">
+    </div>
+    <div class="quiz-box">
+      <div class="header"><img class="level" src="" alt="">
+        <div><span class="timer"></span>
+        <span class="question-count">1/10</span></div>
+       
+        <span class=""> <img class="score" src="level/Asset 2.png" alt=""><span class="scorecount">0</span></span>
+        
+      </div>
+      
+      <hr>
+    
+    <span class="question">Loading...</span>
+    <div class="answers">
+    <span class="answer"></span>
+  </div>
+    <div style="text-align: center;"><button class="next">التالي</button>
+      <button class="help">حذف إجابتين</button></div>
+  </div>
+  <ul>
+    <h2>قواعد اللعبة</h2>
+    <li>يجب أن تحصل على 10 نقاط ومافوق حتى تستطيع الانتقال للمرحلة التالية </li>
+    <li>يحق لك استخدام خيار حذف اجابتين مرّة واحدة فقط في كل مرحلة</li>
+    <li>عند تخطي السؤال سيتم خصم نقطتين من نقاطك </li>
+  </ul>
+  </body>
+
+    <script src="main.js" type="module" >
+      
+      
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script>
+      
+    </script>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+  </head>
+</html>
