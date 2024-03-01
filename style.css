@@ -170,8 +170,24 @@ ul li {
     font-size: 40px;
     margin-top: 700px;
   }
+  button {
+    font-size:25px;
 }
-
+  .popup {
+    width:600px;
+    height:300px;
+  }
+  .popup .congrats h1 {
+    font-size :75px;
+    
+  }
+  .pupup span {
+    font-size:75px;
+  }
+  .popup img {
+    width:165px;
+  }
+}
 @media (min-width: 992px) {
   .quiz-box {
     width: 100%;
